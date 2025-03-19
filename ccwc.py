@@ -56,7 +56,7 @@ def ccwc():
             sys.exit(1)
         print(process_file(f_name,options))
     else:
-        print("Usage: ccwc.py [-c|-l|-w|-m] [file]",f=sys.stderr)
+        print("Usage: ccwc [-c|-l|-w|-m] [file]",f=sys.stderr)
         sys.exit(1)
     
 if __name__ == "__main__":
